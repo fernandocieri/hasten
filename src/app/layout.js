@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 import { Inter } from 'next/font/google'
 
-import './globals.css'
+import './globals.scss'
 import Header from '@/components/header/Header'
 import Menu from '@/components/menu/Menu'
 
