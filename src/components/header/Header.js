@@ -1,5 +1,5 @@
 import './header.scss';
-import Nav from '@components/nav/Nav';
+import Nav from '@/components/Nav';
 
 export default function Header() {
   return (
