@@ -1,0 +1,39 @@
+@import "/src/app/variables";
+
+header {
+    width: 100%;
+    height: 12.0625rem;
+    padding-left: 57.38rem;
+    background: transparent;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav > ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu-button {
+        width: 18.4375rem;
+        height: 3.8125rem;
+        font-size: 2rem;
+        margin-left: 6.19rem;
+        border-radius: 1.375rem;
+        border: 1px solid $hasten-black;
+        background: $hasten-beige;
+        flex-shrink: 0;
+    }
+
+    #first-button {
+        margin-left: 0;
+    }
+
+    #last-button {
+        margin-right: 1.94rem;
+    }
+}

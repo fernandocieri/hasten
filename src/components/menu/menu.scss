@@ -1,0 +1,38 @@
+@import '/src/app/variables';
+
+.image {
+    margin-bottom: 1.56rem;
+}
+
+#aside-menu {
+    width: 12.25rem;
+    height: 100vh;
+    background-color: $hasten-beige;
+    margin-top: -12.25rem;
+    overflow-y: hidden;
+
+    .menu-button {
+        width: 9.3125rem;
+        height: 2.625rem;
+        color: $hasten-beige;
+        background: $hasten-orange;
+        font-size: 1rem;
+        flex-shrink: 0;
+        border-radius: 1.25rem;
+        margin-bottom: 0.87rem;
+        margin-right: 1.44rem;
+        margin-left: 1.44rem;
+    }
+}
+
+.hasten-logo {
+    position: relative;
+    width: 12.25rem;
+    height: 12.0625rem;
+}
+
+.aside-spacer {
+    height: 22.625rem;
+    margin-top: 1.56rem;
+    margin-bottom: 1.56rem;
+}
