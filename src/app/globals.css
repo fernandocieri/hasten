@@ -27,6 +27,7 @@ button {
   overflow-x:scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  scroll-behavior: smooth;
 }
 
 nav > ul {
