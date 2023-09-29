@@ -6,7 +6,9 @@ export default function Menu() {
   return (
     <aside id="aside-menu" className="flex-col">
       <div className="hasten-logo">
-        <Image src={'/png/hasten-logo.png'} fill priority alt="Logo de Hasten" />
+        <a href='/'>
+          <Image src={'/png/hasten-logo.png'} fill alt="Logo de Hasten" />
+        </a>
       </div>
 
       <div className="aside-spacer"></div>
