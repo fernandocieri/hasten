@@ -1,11 +1,13 @@
 'use client'
 
 import { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import Image from "next/image"
 import Header from '@/components/header/Header'
 import Menu from '@/components/menu/Menu'
 
 export default function ScrollWrapper({ children }) {
+    const pathname = usePathname()
 
     useEffect(() => {
         const container = document.getElementById('main-layout')
@@ -26,9 +28,9 @@ export default function ScrollWrapper({ children }) {
 
     return (
         <div id='main-layout'>
-            <Header />
+            <Header currentPage={pathname} />
             <main className='flex-row'>
-                <Menu />
+                <Menu currentPage={pathname} />
                 {children}
             </main>
             <div id='bottom-logo'>

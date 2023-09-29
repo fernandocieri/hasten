@@ -2,7 +2,7 @@ import './menu.scss';
 import Image from "next/image"
 import Nav from '@/components/Nav';
 
-export default function Menu() {
+export default function Menu({ currentPage }) {
   return (
     <aside id="aside-menu" className="flex-col">
       <div className="hasten-logo">
@@ -13,7 +13,7 @@ export default function Menu() {
 
       <div className="aside-spacer"></div>
 
-      <Nav />
+      <Nav currentPage={currentPage} />
     </aside>
   )
 }

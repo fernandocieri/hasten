@@ -1,4 +1,4 @@
-@import '/src/app/styles/variables';
+@import "/src/app/styles/variables";
 
 .image {
     margin-bottom: 1.56rem;
@@ -20,6 +20,10 @@
         margin-bottom: 0.87rem;
         margin-right: 1.44rem;
         margin-left: 1.44rem;
+    }
+
+    nav .active-link {
+        visibility: hidden;
     }
 }
 
