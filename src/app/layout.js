@@ -1,4 +1,4 @@
-import './globals.scss'
+import './styles/globals.scss'
 import ScrollWrapper from '@/components/ScrollWrapper'
 
 export const metadata = {
