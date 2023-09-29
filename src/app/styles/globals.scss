@@ -28,6 +28,16 @@ button {
   scroll-behavior: smooth;
 }
 
+#bottom-logo {
+  width: 12.25rem !important;
+  height: 12.0625rem;
+  margin-top: -15rem;
+  margin-right: 1.94rem;
+  margin-left: 174rem;
+  position: relative;
+  z-index: 2;
+}
+
 nav > ul {
   list-style: none;
   padding: 0;

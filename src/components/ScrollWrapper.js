@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import Image from "next/image"
 import Header from '@/components/header/Header'
 import Menu from '@/components/menu/Menu'
 
@@ -12,7 +13,7 @@ export default function ScrollWrapper({ children }) {
         if (container) {
             const handleScroll = (e) => {
                 e.preventDefault()
-                container.scrollLeft += e.deltaY * 1.5
+                container.scrollLeft += e.deltaY * 10
             }
 
             container.addEventListener('wheel', handleScroll)
@@ -26,10 +27,13 @@ export default function ScrollWrapper({ children }) {
     return (
         <div id='main-layout'>
             <Header />
-                <main className='flex-row'>
-                    <Menu />
-                    {children}
-                </main>
+            <main className='flex-row'>
+                <Menu />
+                {children}
+            </main>
+            <div id='bottom-logo'>
+                <Image src={'/png/hasten-logo.png'} fill priority alt="Logo de Hasten" />
+            </div>
         </div>
     )
 }
