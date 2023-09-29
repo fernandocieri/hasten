@@ -1,4 +1,4 @@
-@import '/src/app/variables';
+@import '/src/app/styles/variables';
 
 .image {
     margin-bottom: 1.56rem;
@@ -8,8 +8,6 @@
     width: 12.25rem;
     height: 100vh;
     background-color: $hasten-beige;
-    margin-top: -12.25rem;
-    overflow-y: hidden;
 
     .menu-button {
         width: 9.3125rem;
