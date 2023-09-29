@@ -1,15 +1,18 @@
-@import "/src/app/variables";
+@import "/src/app/styles/variables";
 
 header {
-    width: 100%;
     height: 12.0625rem;
-    padding-left: 57.38rem;
+    padding-left: 69.63rem;
+    margin-bottom: -12.0625rem;
     background: transparent;
+    z-index: 2;
+    // position: absolute;
 
     nav {
         display: flex;
         flex-direction: row;
         align-items: center;
+        z-index: 2;
     }
 
     nav > ul {

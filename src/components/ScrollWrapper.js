@@ -26,12 +26,10 @@ export default function ScrollWrapper({ children }) {
     return (
         <div id='main-layout'>
             <Header />
-            <div id='content-container' className='flex-row'>
-                <Menu />
-                <main>
+                <main className='flex-row'>
+                    <Menu />
                     {children}
                 </main>
-            </div>
         </div>
     )
 }
