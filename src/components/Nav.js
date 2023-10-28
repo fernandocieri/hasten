@@ -5,33 +5,43 @@ export default function Nav({ currentPage }) {
     <nav>
       <ul>
         <li>
-          <button id="first-button" className={`menu-button ${currentPage === '/info' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
-            <a href="/info">INFO</a>
-          </button>
+          <a href="/info">
+            <button id="first-button" className={`menu-button ${currentPage === '/info' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
+              INFO
+            </button>
+          </a>
         </li>
 
         <li>
-          <button className={`menu-button ${currentPage === '/promociones' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
-            <a href="/promociones">PROMOCIONES</a>
-          </button>
+          <a href="/promociones">
+            <button className={`menu-button ${currentPage === '/promociones' ? 'active-link' : ''}`} disabled={currentPage === '/promociones' ? true : false}>
+              PROMOCIONES
+            </button>
+          </a>
         </li>
 
         <li>
-          <button className={`menu-button ${currentPage === '/filmmakers' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
-            <a href="/filmmakers">FILMMAKERS</a>
-          </button>
+          <a href="/filmmakers">
+            <button className={`menu-button ${currentPage === '/filmmakers' ? 'active-link' : ''}`} disabled={currentPage === '/filmmakers' ? true : false}>
+              FILMMAKERS
+            </button>
+          </a>
         </li>
 
         <li>
-          <button className={`menu-button ${currentPage === '/candidatura' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
-            <a href="/candidatura">CANDIDATURA</a>
-          </button>
+          <a href="/candidatura">
+            <button className={`menu-button ${currentPage === '/candidatura' ? 'active-link' : ''}`} disabled={currentPage === '/candidatura' ? true : false}>
+              CANDIDATURA
+            </button>
+          </a>
         </li>
 
         <li>
-          <button id="last-button" className={`menu-button ${currentPage === '/contacto' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
-            <a href="/contacto">CONTACTO</a>
-          </button>
+          <a href="/contacto">
+            <button id="last-button" className={`menu-button ${currentPage === '/contacto' ? 'active-link' : ''}`} disabled={currentPage === '/contacto' ? true : false}>
+              CONTACTO
+            </button>
+          </a>
         </li>
       </ul>
     </nav>
