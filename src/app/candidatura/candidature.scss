@@ -1,0 +1,30 @@
+@import "@styles/variables";
+
+#candidature {
+    min-width: 176.35rem;
+    background-image: url("/jpg/mountain.jpg");
+    background-size: cover;
+    background-position: center 50%;
+
+    h2 {
+        margin-top: 13.31rem;
+        margin-left: 3rem;
+    }
+}
+
+#candidature-form {
+    margin-top: 2.25rem;
+    margin-left: 7.06rem;
+}
+
+.candidature-submit {
+    width: 68.5rem;
+    height: 3.75rem;
+    border-radius: 3.1875rem;
+    border: 1px solid $hasten-black;
+    background: $hasten-orange;
+    color: $hasten-beige;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
