@@ -20,7 +20,7 @@ export default function Promotions() {
     },
     {
       title: 'QUINTA PORMOCIÓN.',
-      description: '...'
+      description: 'LOS DIRECTORES SE AUTOPRODUCEN ENTRE SÍ. ADEMÁS, UN EX DIRECTOR DE HASTEN SE AÑADE A MITAD DE TEMPORADA'
     }
   ];
 
