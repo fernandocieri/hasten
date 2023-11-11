@@ -7,7 +7,7 @@ export default function Menu({ currentPage }) {
     <aside id="aside-menu" className="flex-col">
       <div className="hasten-logo">
         <a href='/'>
-          <Image src={'/png/hasten-logo.png'} fill alt="Logo de Hasten" />
+          <Image src={'/images/png/hasten-logo.png'} fill alt="Logo de Hasten" />
         </a>
       </div>
 
