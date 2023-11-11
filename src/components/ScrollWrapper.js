@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import Image from "next/image"
 import Header from '@/components/header/Header'
 import Menu from '@/components/menu/Menu'
@@ -34,9 +35,9 @@ export default function ScrollWrapper({ children }) {
                 {children}
             </main>
             <div id='bottom-logo'>
-                <a href='/'>
+                <Link href='/'>
                     <Image src={'/images/png/hasten-logo.png'} fill alt="Logo de Hasten" />
-                </a>
+                </Link>
             </div>
         </div>
     )

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import './info.scss'
 
 export default function Info() {
@@ -20,9 +21,9 @@ export default function Info() {
           </div>
 
           <button className='cta-bubble cta-1'>
-            <a href='/candidatura'>
+            <Link href='/candidatura'>
               ¡QUIERO PARTICIPAR!
-            </a>
+            </Link>
           </button>
         </div>
 
@@ -44,9 +45,9 @@ export default function Info() {
 
         <div className='purple-elements-container flex-col'>
           <button className='cta-bubble cta-2'>
-            <a href='/candidatura'>
+            <Link href='/candidatura'>
               ¡QUIERO PARTICIPAR!
-            </a>
+            </Link>
           </button>
 
           <div className='circle' />
