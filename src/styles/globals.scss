@@ -8,6 +8,7 @@ body {
   margin: 0px;
   color: $hasten-black;
   overflow: hidden;
+  font-family: var(--font-archivo);
 }
 
 a {
@@ -18,6 +19,7 @@ a {
 button {
   border: 0px;
   cursor: pointer;
+  font-family: var(--font-archivo);
 }
 
 #main-layout {
@@ -52,3 +54,21 @@ nav > ul {
   display: flex;
   flex-direction: row;
 }
+
+.amdal {
+  font-family: var(--font-AMDAL);
+}
+
+.basteleur {
+  font-family: var(--font-basteleur);
+  font-weight: 400;
+}
+
+.grotesk {
+  font-family: var(--font-grotesk);
+}
+
+.gulax {
+  font-family: var(--font-gulax);
+}
+
