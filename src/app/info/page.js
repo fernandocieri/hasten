@@ -3,13 +3,13 @@ import './info.scss'
 export default function Info() {
   return (
     <section id="info">
-      <h2>REINVENTA EL CINE</h2>
+      <h2 className='amdal'>REINVENTA EL <span className='basteleur'>C</span>INE</h2>
 
       <div className='flex-row info-container'>
         <div className='flex-col'>
           <div className='orange-bubble content-bubble-1'>
             <p>
-              HASTEN sigue las reglas del CÁDAVER EXQUISITO. Se eligen a 4 filmmakers (profesionales, no profesionales, guionistas que quieren probar a dirigir, directores dedicados al cine experimental o incluso aquellos centrados en el video-arte).
+              <span className='gulax hasten-mention'>HASTEN</span> sigue las reglas del <span className='basteleur'>CADÁVER EXQUISITO</span>. Se eligen a 4 filmmakers: profesionales, no profesionales, guionistas que quieren probar a dirigir, directores dedicados al cine experimental o aquellos centrados en el video-arte.
             </p>
           </div>
 
