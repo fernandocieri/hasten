@@ -22,6 +22,11 @@
         margin-left: 1.44rem;
     }
 
+    nav {
+        border-top: 2.5rem solid $hasten-orange;
+        padding-top: 1.56rem;
+    }
+
     nav .active-link {
         visibility: hidden;
     }
@@ -34,7 +39,7 @@
 }
 
 .aside-spacer {
-    height: 22.625rem;
+    height: 18.5rem;
     margin-top: 1.56rem;
     margin-bottom: 1.56rem;
 }
