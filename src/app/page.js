@@ -7,7 +7,10 @@ export default function Home() {
     <div className='flex-row'>
       <div id="first-fold">
         <div id="hasten-logo-tipografico-section">
-          <Image src={'/images/png/hasten-logo-tipografico.png'} fill priority alt="Logo tipográfico de Hasten" />
+          <div className='logo-wrapper'>
+            <Image src={'/images/png/hasten-logo-tipografico.png'} fill priority alt="Logo tipográfico de Hasten" />
+          </div>
+          <h1>REINVENTA EL <span className='basteleur'>C</span>INE</h1>
         </div>
       </div>
 

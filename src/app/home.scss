@@ -14,6 +14,20 @@
     position: relative;
     margin-top: 13.62rem;
     margin-left: -12.25rem;
+
+    .logo-wrapper {
+        width: 102rem;
+        height: 22.625rem;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 5rem;
+        color: $hasten-beige;
+        position: absolute;
+        bottom: -10rem;
+        left: 41.5rem;
+    }
 }
 
 #second-fold {
