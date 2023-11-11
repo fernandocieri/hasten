@@ -47,7 +47,7 @@ export default function Candidature() {
 
     return (
         <section id="candidature">
-            <h2>REINVENTA EL CINE</h2>
+            <h2 className='main-title'>REINVENTA EL <span className='basteleur'>C</span>INE</h2>
             <form id="candidature-form" onSubmit={handleSubmit(onSubmit)}>
                 <div className={`field-container flex-row ${errors.name && 'field-error'}`}>
                     <label className='field-label'>

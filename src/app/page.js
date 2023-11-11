@@ -10,7 +10,7 @@ export default function Home() {
           <div className='logo-wrapper'>
             <Image src={'/images/png/hasten-logo-tipografico.png'} fill priority alt="Logo tipográfico de Hasten" />
           </div>
-          <h1>REINVENTA EL <span className='basteleur'>C</span>INE</h1>
+          <h1 className='main-title'>REINVENTA EL <span className='basteleur'>C</span>INE</h1>
         </div>
       </div>
 

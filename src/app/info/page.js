@@ -4,7 +4,7 @@ import './info.scss'
 export default function Info() {
   return (
     <section id="info">
-      <h2 className='amdal'>REINVENTA EL <span className='basteleur'>C</span>INE</h2>
+      <h2 className='main-title'>REINVENTA EL <span className='basteleur'>C</span>INE</h2>
 
       <div className='flex-row info-container'>
         <div className='flex-col'>
