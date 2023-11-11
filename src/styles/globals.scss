@@ -1,0 +1,78 @@
+@import "./variables";
+
+html {
+  font-size: calc((16 / 1024) * 100vh);
+}
+
+body {
+  margin: 0px;
+  color: $hasten-black;
+  overflow: hidden;
+  font-family: var(--font-archivo);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: 0px;
+  cursor: pointer;
+  font-family: var(--font-archivo);
+}
+
+#main-layout {
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+#bottom-logo {
+  width: 12.25rem !important;
+  height: 12.0625rem;
+  margin-top: -15rem;
+  margin-right: 1.94rem;
+  margin-left: 174rem;
+  position: relative;
+  z-index: 2;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-title {
+  font-size: 5rem;
+  color: $hasten-beige;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.amdal {
+  font-family: var(--font-AMDAL);
+}
+
+.basteleur {
+  font-family: var(--font-basteleur);
+  font-weight: 400;
+}
+
+.grotesk {
+  font-family: var(--font-grotesk);
+}
+
+.gulax {
+  font-family: var(--font-gulax);
+}

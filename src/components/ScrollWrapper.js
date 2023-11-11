@@ -1,10 +1,14 @@
 'use client'
 
 import { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
+import Image from "next/image"
 import Header from '@/components/header/Header'
 import Menu from '@/components/menu/Menu'
 
 export default function ScrollWrapper({ children }) {
+    const pathname = usePathname()
 
     useEffect(() => {
         const container = document.getElementById('main-layout')
@@ -12,7 +16,7 @@ export default function ScrollWrapper({ children }) {
         if (container) {
             const handleScroll = (e) => {
                 e.preventDefault()
-                container.scrollLeft += e.deltaY * 1.5
+                container.scrollLeft += e.deltaY * 10
             }
 
             container.addEventListener('wheel', handleScroll)
@@ -25,11 +29,16 @@ export default function ScrollWrapper({ children }) {
 
     return (
         <div id='main-layout'>
-            <Header />
-                <main className='flex-row'>
-                    <Menu />
-                    {children}
-                </main>
+            <Header currentPage={pathname} />
+            <main className='flex-row'>
+                <Menu currentPage={pathname} />
+                {children}
+            </main>
+            <div id='bottom-logo'>
+                <Link href='/'>
+                    <Image src={'/images/png/hasten-logo.png'} fill alt="Logo de Hasten" />
+                </Link>
+            </div>
         </div>
     )
 }

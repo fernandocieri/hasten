@@ -1,39 +1,49 @@
-import React from 'react'
+import Link from 'next/link'
 
-export default function Nav() {
+export default function Nav({ currentPage }) {
   return (
     <nav>
-        <ul>
-          <li>
-            <button id="first-button" className="menu-button">
-              <a href="">INFO</a>
+      <ul>
+        <li>
+          <Link href="/info">
+            <button id="first-button" className={`menu-button ${currentPage === '/info' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
+              INFO
             </button>
-          </li>
+          </Link>
+        </li>
 
-          <li>
-            <button className="menu-button">
-              <a href="">PROMOCIONES</a>
+        <li>
+          <Link href="/promociones">
+            <button className={`menu-button ${currentPage === '/promociones' ? 'active-link' : ''}`} disabled={currentPage === '/promociones' ? true : false}>
+              PROMOCIONES
             </button>
-          </li>
+          </Link>
+        </li>
 
-          <li>
-            <button className="menu-button">
-              <a href="">FILMMAKERS</a>
+        <li>
+          <Link href="/filmmakers">
+            <button className={`menu-button ${currentPage === '/filmmakers' ? 'active-link' : ''}`} disabled={currentPage === '/filmmakers' ? true : false}>
+              FILMMAKERS
             </button>
-          </li>
+          </Link>
+        </li>
 
-          <li>
-            <button className="menu-button">
-              <a href="">CANDIDATURA</a>
+        <li>
+          <Link href="/candidatura">
+            <button className={`menu-button ${currentPage === '/candidatura' ? 'active-link' : ''}`} disabled={currentPage === '/candidatura' ? true : false}>
+              CANDIDATURA
             </button>
-          </li>
+          </Link>
+        </li>
 
-          <li>
-            <button id="last-button" className="menu-button">
-              <a href="">CONTACTO</a>
+        <li>
+          <Link href="/contacto">
+            <button id="last-button" className={`menu-button ${currentPage === '/contacto' ? 'active-link' : ''}`} disabled={currentPage === '/contacto' ? true : false}>
+              CONTACTO
             </button>
-          </li>
-        </ul>
-      </nav>
+          </Link>
+        </li>
+      </ul>
+    </nav>
   )
 }

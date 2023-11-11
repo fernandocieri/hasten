@@ -1,4 +1,4 @@
-@import "/src/app/styles/variables";
+@import "@styles/variables";
 
 header {
     height: 12.0625rem;
@@ -6,7 +6,6 @@ header {
     margin-bottom: -12.0625rem;
     background: transparent;
     z-index: 2;
-    // position: absolute;
 
     nav {
         display: flex;
@@ -19,6 +18,11 @@ header {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    nav .active-link {
+        background-color: $hasten-orange;
+        color: $hasten-black;
     }
 
     .menu-button {

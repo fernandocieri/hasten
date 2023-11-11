@@ -1,24 +1,31 @@
-@import "/src/app/styles/variables";
+@import "@styles/variables";
 
 #first-fold {
     width: 89.75rem;
     height: 100vh;
-    background-image: url("/jpg/mountain.jpg");
+    background-image: url("/images/jpg/mountain.jpg");
     background-size: cover;
     border-right: 2.625rem solid $hasten-orange;
 }
 
 #hasten-logo-tipografico-section {
-    width: 88rem;
+    width: 102rem;
     height: 22.625rem;
     position: relative;
     margin-top: 13.62rem;
     margin-left: -12.25rem;
-    filter: invert(34%) sepia(64%) saturate(3498%) hue-rotate(350deg) brightness(94%) contrast(93%);
-}
 
-#test {
-    width: 40rem;
+    .logo-wrapper {
+        width: 102rem;
+        height: 22.625rem;
+        position: relative;
+    }
+
+    h1 {
+        position: absolute;
+        bottom: -10rem;
+        left: 41.5rem;
+    }
 }
 
 #second-fold {
