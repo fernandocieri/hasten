@@ -6,15 +6,14 @@ const fontArchivo = localFont({
             path: '/archivo/Archivo-Regular.ttf',
             weight: '400',
             style: 'normal',
-            display: 'swap',
         },
         {
             path: '/archivo/Archivo-Bold.ttf',
             weight: '700',
             style: 'normal',
-            display: 'swap',
         },
     ],
+    display: 'swap',
     variable: '--font-archivo'
 })
 
@@ -24,9 +23,9 @@ const fontAMDAL = localFont({
             path: '/amdal/AMDAL-Regular.woff2',
             weight: '400',
             style: 'normal',
-            display: 'swap',
         }
     ],
+    display: 'swap',
     variable: '--font-AMDAL'
 })
 
@@ -36,9 +35,9 @@ const fontGrotesk = localFont({
             path: '/grotesk/Grotesk-Regular.woff2',
             weight: '400',
             style: 'normal',
-            display: 'swap',
         }
     ],
+    display: 'swap',
     variable: '--font-grotesk'
 })
 
@@ -54,9 +53,9 @@ const fontBasteleur = localFont({
             path: '/basteleur/Basteleur-Bold.woff2',
             weight: '700',
             style: 'normal',
-            display: 'swap',
         },
     ],
+    display: 'swap',
     variable: '--font-basteleur'
 })
 
@@ -66,9 +65,9 @@ const fontGulax = localFont({
             path: '/gulax/Gulax-Regular.woff2',
             weight: '400',
             style: 'normal',
-            display: 'swap',
         }
     ],
+    display: 'swap',
     variable: '--font-gulax'
 })
 
