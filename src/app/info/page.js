@@ -1,6 +1,17 @@
 import Link from 'next/link'
 import './info.scss'
 
+const metaTitle = "HASTEN | Descubre el Proyecto Cinematográfico Colaborativo";
+const metaDescription = "Adéntrate en la visión de HASTEN, donde el cine se convierte en una aventura colectiva. Explora cómo reinventamos la narrativa fílmica con el espíritu del 'Cadáver Exquisito'. Conoce más sobre nuestra misión y metodología."
+export const metadata = {
+  title: metaTitle,
+  description: metaDescription,
+  openGraph: {
+    title: metaTitle,
+    description: metaDescription,
+  }
+}
+
 export default function Info() {
   return (
     <section id="info">
