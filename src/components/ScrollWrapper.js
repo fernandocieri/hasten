@@ -36,7 +36,9 @@ export default function ScrollWrapper({ children }) {
             </main>
             <div id='bottom-logo'>
                 <Link href='/'>
-                    <Image src={'/images/png/hasten-logo.png'} fill alt="Logo de Hasten" />
+                    <div className='hasten-logo-link'>
+                        <Image src={'/images/png/hasten-logo.png'} fill alt="Logo de Hasten" />
+                    </div>
                 </Link>
             </div>
         </div>
