@@ -15,11 +15,10 @@ export default function ScrollWrapper({ children }) {
 
         if (container) {
             const handleScroll = (e) => {
-                e.preventDefault()
                 container.scrollLeft += e.deltaY * 10
             }
 
-            container.addEventListener('wheel', handleScroll)
+            container.addEventListener('wheel', handleScroll, { passive: true })
 
             return () => {
                 container.removeEventListener('wheel', handleScroll)
