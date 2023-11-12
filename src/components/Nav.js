@@ -20,13 +20,13 @@ export default function Nav({ currentPage }) {
           </Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link href="/filmmakers">
             <button className={`menu-button ${currentPage === '/filmmakers' ? 'active-link' : ''}`} disabled={currentPage === '/filmmakers' ? true : false}>
               FILMMAKERS
             </button>
           </Link>
-        </li>
+        </li> */}
 
         <li>
           <Link href="/candidatura">
