@@ -6,7 +6,7 @@ export default function Nav({ currentPage }) {
       <ul>
         <li>
           <Link href="/info">
-            <button id="first-button" className={`menu-button ${currentPage === '/info' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
+            <button className={`menu-button nav-first-button ${currentPage === '/info' ? 'active-link' : ''}`} disabled={currentPage === '/info' ? true : false}>
               INFO
             </button>
           </Link>
